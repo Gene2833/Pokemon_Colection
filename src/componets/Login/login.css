@@ -1,31 +1,18 @@
-*{
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  box-sizing: border-box;
+.bg{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/64/125/92/pokemon-pokemon-detective-pikachu-pikachu-hd-wallpaper-preview.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 595px;
+    border-radius: 5px;
+
 }
 
-.img{
-  width: 100%;
-  height: 400px;
+body{
+    background: #ffe259;
+    background: linear-gradient(to right, #ffa751, #ffe259);
+    
 }
 
-
-#form_login{
-  text-align: center;
-  padding: 20px; 
-}
-
-#form_login h1{
-  padding: 10px;
-}
-
-input{
-  margin: 10px;
-  height: 25px;
-}
-
-button{
- 
-  width: 110px;
+.sombra{
+    box-shadow:0 1rem 3rem rgba(black, .175);
 }

@@ -31,32 +31,49 @@ const Login = () => {
   }
 
 
+
+
   return (
-    
-
-    <div>
+<div>
+    <div className='container bg-primary mt-5 shadow-lg rounded'>
+        
+    <div class="row align-items-stretch">
+    <div class="col bg"  >
       
-    <form id="form_login">
-      <img className='img'  src='http://c.files.bbci.co.uk/5BC3/production/_90319432_poke5.png' alt='nombre'/>
-          <div> 
+    </div>
+    <div class="col">
+      <div className='text-end'>
+        <img src='./Pokemon.png' width="80" alt='pokemon' />
+      </div>
+      <h2 className='fw-bold text-center pt-5 mb-5'>Bienvenido</h2>
+        
+        {/*Login*/}
+        <form>
+          <div className='mb-4'>
+          <label for="text" className='form-label'>Usuario</label>
+          <input type="text" id="txtusu"  className='form-control' name="usuario" onChange={ (e)=>setUsu(e.target.value) }  required />
+          </div>
+
+          <div className='mb-4'>
+          <label for="password" className='form-label'>Password</label>
+          <input type="password"  id="txtpas"  className='form-control' name="password"   onChange={ (e)=>setPas(e.target.value) } required/>
+            </div>
+
+            <div className='d-grid'>
+            <button type="submit"  className="btn btn-primary" value="Login" onClick={ iniciarSesion }>Entrar </button>
+            </div>
             
-          <h1>Inicio de sesion</h1>
-            <label htmlFor="txtusu"><strong>Usuario</strong></label>
-            <input type="text" id="txtusu" style={{textAlign:"center"}} className="form-control"  onChange={ (e)=>setUsu(e.target.value) }  required/>
-        </div>
-        <div>
-            <label htmlFor="txtpas"><strong>Password </strong></label>
-            <input type="password" id="txtpas" style={{textAlign:"center"}} className="form-control"  onChange={ (e)=>setPas(e.target.value) }  required/>
-        </div><br/>
-        <button type="submit"  className="btn btn-primary" value="Login" onClick={ iniciarSesion }>Entrar </button>
-    </form>
-   <div>
-    { miLogin === "true" && <Navbar/> }
-</div>
-
-
-</div>
+            <div className='my-3'>
+              <span>No tienes cuenta? <li>Registrate</li></span>
+            </div>
+        </form>
+    </div>
     
+      </div>
+      </div>
+{ miLogin === "true" && <Navbar/> }
+
+    </div>
 
 
 
