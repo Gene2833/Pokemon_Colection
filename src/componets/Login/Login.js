@@ -35,7 +35,9 @@ const Login = () => {
     
 
     <div>
+      
     <form id="form_login">
+      <img className='img'  src='http://c.files.bbci.co.uk/5BC3/production/_90319432_poke5.png' alt='nombre'/>
           <div> 
             
           <h1>Inicio de sesion</h1>
@@ -48,10 +50,14 @@ const Login = () => {
         </div><br/>
         <button type="submit"  className="btn btn-primary" value="Login" onClick={ iniciarSesion }>Entrar </button>
     </form>
-   
+   <div>
     { miLogin === "true" && <Navbar/> }
+</div>
+
 
 </div>
+    
+
 
 
   )
