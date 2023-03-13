@@ -1,6 +1,7 @@
 import './App.css';
 import React, { useState} from "react"
 import Login from './componets/Login/Login';
+import Footer from './componets/Footer/Footer';
 import Home from "./componets/Home/Home"
 import appFirabase from './componets/Firebase/Firebase';
 import {getAuth, onAuthStateChanged} from "firebase/auth"
@@ -21,6 +22,7 @@ function App() {
   return (
     <div className="App">
     {usuario ? <Home correoUsuario = {usuario.email} /> : <Login/>}
+    <Footer/>
     </div>
   );
 }
