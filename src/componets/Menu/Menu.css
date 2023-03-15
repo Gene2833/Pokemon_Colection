@@ -1,0 +1,29 @@
+.navbar{
+    background: #ffe259;
+    background: linear-gradient(to right, #ffa751, #ffe259);
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.button{
+   border-radius: 10px;
+   width: 100px;
+   height: 50px;
+   background-color: #ffa751;
+   font-size: 14px;
+   color: black;
+   cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 18px;
+}
+
+img{
+    height: 500px;
+    padding: 10px;
+}

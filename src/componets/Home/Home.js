@@ -1,16 +1,21 @@
-import appFirabase from "../Firebase/Firebase"
-import { getAuth, signOut } from "firebase/auth"
-const auth = getAuth(appFirabase)
-
-const Home = ({correoUsuario}) =>{
+import "./Home.css"
+const Home = () =>{
     return(
-        <div className="container">
-           <p>Bienvenido, <strong>{correoUsuario}</strong> Haz iniciado sesion</p>
-
-           <button className="btn btn-primary" onClick={() => signOut(auth)} >
-            Cerrar sesion
-           </button>
-        </div>
+    <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
+        <h1>Bienvenidos a Pokemon collections</h1>
+    <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img src="https://i.ytimg.com/vi/wP_0_0aQHak/maxresdefault.jpg" className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src="https://cdn.custom-cursor.com/collections/129/cover-pokemon-preview.png" className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src="https://pbs.twimg.com/media/EaQYPppWoAQDShx.jpg:large" className="d-block w-100" alt="..."/>
+    </div>
+  </div>
+</div>
+       
     )
 }
 

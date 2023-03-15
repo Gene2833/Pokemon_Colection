@@ -38,13 +38,13 @@ return (
       <div>
           <div className='container bg-primary mt-5  rounded'>
               
-          <div class="row align-items-stretch">
-          <div class="col bg"  >
+          <div className="row align-items-stretch">
+          <div className="col bg"  >
             
           </div>
-          <div class="col">
+          <div className="col">
             <div className='text-end'>
-              <img src='./Pokemon.png' width="80" alt='pokemon' />
+         
             </div>
                 {/* se crear el operador ternario, si nuestra variable de estado registro esta en true muestre registrate si esta en false muestra iniciar sesion hace la accion de un if */}
             <h2 className='fw-bold text-center pt-5 mb-5'>{registro ? "Registrate" : "Inicia sesion"}</h2>
