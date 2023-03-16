@@ -1,7 +1,7 @@
 import "./Menu.css"
-import Home from "../Home/Home"
 import appFirabase from "../Firebase/Firebase"
 import { getAuth, signOut } from "firebase/auth"
+import { Link } from "react-router-dom"
 const auth = getAuth(appFirabase)
 
 
@@ -9,8 +9,9 @@ const Menu = ({correoUsuario}) =>{
     return(
         <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
-          <h1>Create Collection</h1>
-          <h1> Collection List </h1>
+        <Link to="/" class="navbar-brand" href="#"> <img  src="https://i.pinimg.com/originals/00/91/ee/0091ee3217f61f8e5f369b9c6cd14db5.jpg" style={{height: 120, borderRadius: 70}} alt="pokemon" /></Link>
+          <Link to={"/Create"} className="m-2">Create Collection</Link>
+          <Link to={"Collection"} className="m-2"> Collection List </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -28,7 +29,7 @@ const Menu = ({correoUsuario}) =>{
           </div>
        
         </div>
-     <Home/>
+    
       </nav>
     )
 }

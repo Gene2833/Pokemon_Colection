@@ -1,8 +1,10 @@
 import React, { useState} from "react"
 import Login from './componets/Login/Login';
 import Footer from './componets/Footer/Footer';
-import Menu from "./componets/Menu/Menu";
-
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "../src/componets/Home/Home"
+import Collections from "./componets/Collections/Collections";
+import Create from "./componets/Create/Create";
  // Se importa Firebase para poder usarlo y desesctruturar los servicios que vamos a utilizar del auth = autentificacion
 import appFirabase from './componets/Firebase/Firebase';
 //funciones que vamos a utilizar todo esto viene de la documentacion de firebase
@@ -31,11 +33,20 @@ function App() {
   })
 
   return (
-    <div className="App">
-       
-    {usuario ? <Menu correoUsuario = {usuario.email} /> : <Login/>}
-    <Footer/>
-    </div>
+ 
+      
+     <BrowserRouter>
+      
+    {usuario ? <Home correoUsuario = {usuario.email} /> : <Login/>}
+      <Routes>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/Create' element={<Create/>}/>
+            <Route path='/Collections' element={<Collections/>}/>
+           
+          </Routes>
+     <Footer/>
+    </BrowserRouter>  
+
   );
 }
 

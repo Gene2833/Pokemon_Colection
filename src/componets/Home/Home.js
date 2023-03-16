@@ -1,6 +1,9 @@
 import "./Home.css"
+import Menu from "../Menu/Menu"
 const Home = () =>{
     return(
+      <>
+      <Menu/>
     <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
         <h1>Bienvenidos a Pokemon collections</h1>
     <div className="carousel-inner">
@@ -15,7 +18,7 @@ const Home = () =>{
     </div>
   </div>
 </div>
-       
+       </>
     )
 }
 
