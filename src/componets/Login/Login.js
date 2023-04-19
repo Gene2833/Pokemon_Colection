@@ -1,4 +1,5 @@
 import "./login.css"
+import Principal from "../Principal/Principal";
 import React, { useState} from "react"
  // Se importa Firebase para poder usarlo y desesctruturar los servicios que vamos a utilizar del auth = autentificacion
 import appFirabase from "../Firebase/Firebase"
@@ -36,6 +37,7 @@ const Login = () => {
 return (
 
       <div>
+        <Principal/>
           <div className='container bg-primary mt-5  rounded'>
               
           <div className="row align-items-stretch">
@@ -70,7 +72,8 @@ return (
               <div className="form-group">
                 {/* se crear el EVENTO ONCLICK, CON UNA FUNCION DE CB, con el estado de setRegistro se modificado la variable de estado negando el registro, la negacio de false es true, la negacion de true es false   */}
               <button className="btn btn mt-4 form-control" onClick={() => setRegistro(!registro)}>
-                 {/* se crear el operador ternario, si nuestra variable de estado registro esta en true muestre "no tienes cuenta? Registrate", si esta en false muestra "ya tienes una cuenta? Inicia sesion", hace la accion de un if */}
+                
+         
              {registro ? "ya tienes una cuenta? Inicia sesion" : "no tienes cuenta? Registrate"}
               </button>
               </div>
