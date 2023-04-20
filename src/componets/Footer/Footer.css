@@ -1,8 +1,8 @@
 footer {
-  
-
+  background-image: url("https://static.vecteezy.com/system/resources/previews/006/930/071/non_2x/abstract-texture-background-smooth-gold-metal-wall-free-photo.jpg");
     padding: 50px 0;
     margin: 0px;
+    height: 300px;
   }
   
   .footer-container {
@@ -38,7 +38,7 @@ footer {
 
   
   .bottom-bar {
-    background-color: #000;
+    background-color: black;
     text-align: center;
     padding: 20px 0;
   }
@@ -46,5 +46,6 @@ footer {
   .bottom-bar p {
     margin: 0;
     font-size: 14px;
+    color: white;
   }
   

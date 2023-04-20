@@ -1,12 +1,12 @@
 import React, { useState} from "react"
 import Footer from './componets/Footer/Footer';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Menu from "./componets/Menu/Menu"
 import Login from "./componets/Login/Login";
  // Se importa Firebase para poder usarlo y desesctruturar los servicios que vamos a utilizar del auth = autentificacion
 import appFirabase from './componets/Firebase/Firebase';
 //funciones que vamos a utilizar todo esto viene de la documentacion de firebase
 import {getAuth, onAuthStateChanged} from "firebase/auth"
+import Principal from "./componets/Principal/Principal";
 
 
 // de la auth vamos a obtener la aplicacion de firebaseapp, va a estar es escuchando nuestra aplicacion todo esto son regalas de firebase
@@ -33,7 +33,7 @@ function App() {
   return (
      <BrowserRouter>
      <Routes>   
-      <Route path='/' element={usuario ? <Menu correoUsuario = {usuario.email} /> : <Login/>}/>        
+      <Route path='/' element={usuario ? <Principal correoUsuario = {usuario.email} /> : <Login/>}/>        
     </Routes> 
     <Footer/>
     </BrowserRouter>  

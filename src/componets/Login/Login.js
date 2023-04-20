@@ -1,5 +1,4 @@
 import "./login.css"
-import Principal from "../Principal/Principal";
 import React, { useState} from "react"
  // Se importa Firebase para poder usarlo y desesctruturar los servicios que vamos a utilizar del auth = autentificacion
 import appFirabase from "../Firebase/Firebase"
@@ -37,7 +36,7 @@ const Login = () => {
 return (
 
       <div>
-        <Principal/>
+
           <div className='container bg-primary mt-5  rounded'>
               
           <div className="row align-items-stretch">
