@@ -1,18 +1,34 @@
 .bg{
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/64/125/92/pokemon-pokemon-detective-pikachu-pikachu-hd-wallpaper-preview.jpg);
+    background-image: url("https://i.pinimg.com/originals/99/f3/d4/99f3d4b502536e7d4b30b83392f05f50.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    height: 595px;
+    height: 700px;
+    width: 250px;
     border-radius: 5px;
-
+    background-color: #D4AF37;
 }
 
 body{
-    background: #ffe259;
-    background: linear-gradient(to right, #ffa751, #ffe259);
-    
+    background-image: url("https://images.unsplash.com/photo-1605710345595-9929bc7912ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zm9uZG8lMjBuZWdybyUyMGxpc298ZW58MHx8MHx8&w=1000&q=80");
 }
+
 
 .sombra{
     box-shadow:0 1rem 3rem rgba(black, .175);
+}
+
+.container{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/006/930/071/non_2x/abstract-texture-background-smooth-gold-metal-wall-free-photo.jpg");
+}
+
+.btn{
+    background-color: black;
+    color: white  ;
+}
+
+.contenedor1{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

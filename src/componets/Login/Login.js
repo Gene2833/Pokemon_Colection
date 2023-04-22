@@ -1,4 +1,5 @@
 import "./login.css"
+
 import React, { useState} from "react"
  // Se importa Firebase para poder usarlo y desesctruturar los servicios que vamos a utilizar del auth = autentificacion
 import appFirabase from "../Firebase/Firebase"
@@ -35,15 +36,15 @@ const Login = () => {
 
 return (
 
-      <div>
-
-          <div className='container bg-primary mt-5  rounded'>
+      <div className="body">
+      
+          <div className='container  mt-5  rounded'>
               
           <div className="row align-items-stretch">
           <div className="col bg"  >
             
           </div>
-          <div className="col">
+          <div className="contenedor1 col" >
             <div className='text-end'>
          
             </div>
@@ -64,7 +65,7 @@ return (
 
                 {/* se crear el operador ternario, si nuestra variable de estado registro esta en true muestre registrate si esta en false muestra iniciar sesion, hace la accion de un if */}
                   <div className='d-grid'>
-                  <button type="submit"  className="btn btn-primary" value="Login" >{registro ? "Registrate" : "inicia sesion"} </button>
+                  <button type="submit"  className="btn btn" value="Login" >{registro ? "Registrate" : "inicia sesion"} </button>
                   </div>
               </form>
 
