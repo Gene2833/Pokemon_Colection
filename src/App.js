@@ -7,7 +7,7 @@ import appFirabase from './componets/Firebase/Firebase';
 //funciones que vamos a utilizar todo esto viene de la documentacion de firebase
 import {getAuth, onAuthStateChanged} from "firebase/auth"
 import Principal from "./componets/Principal/Principal";
-
+import Escarlata from "./componets/Escarlata/Escarlata";
 
 // de la auth vamos a obtener la aplicacion de firebaseapp, va a estar es escuchando nuestra aplicacion todo esto son regalas de firebase
 const auth = getAuth(appFirabase)
@@ -33,7 +33,9 @@ function App() {
   return (
      <BrowserRouter>
      <Routes>   
-      <Route path='/' element={usuario ? <Principal correoUsuario = {usuario.email} /> : <Login/>}/>        
+      <Route path='/' element={usuario ? <Principal correoUsuario = {usuario.email} /> : <Login/>}/>    
+      <Route path="/" element={<Principal/>}/>
+      <Route path="/Escarlata" element={<Escarlata/>}/>   
     </Routes> 
     <Footer/>
     </BrowserRouter>  

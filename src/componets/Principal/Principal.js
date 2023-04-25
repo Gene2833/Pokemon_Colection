@@ -1,6 +1,6 @@
 import "./Principal.css"
 import Menu from "../Menu/Menu"
-
+import { Link } from "react-router-dom"
 
 
 const Principal = () =>{
@@ -19,7 +19,7 @@ const Principal = () =>{
             <div className="principal1">
                 <img className="tarjeta1" src="https://tcg.pokemon.com/assets/img/sv-expansions/scarlet-violet/cards/es-es/SV01_ES_125.jpg" alt="tarjeta"/>
                 <img className="tarjeta2" src="https://tcg.pokemon.com/assets/img/sv-expansions/scarlet-violet/logo/es-es/sv01-header-logo.png" alt="pokemon"/>
-                <li className="button1">Ver Cartas</li>
+                <li><Link to={`/Escarlata`} className="button1" >Ver Cartas</Link></li>
                  <img className="tarjeta3" src="https://tcg.pokemon.com/assets/img/sv-expansions/scarlet-violet/cards/es-es/SV01_ES_81.jpg" alt="tarjeta"/>
         </div>
 
@@ -30,7 +30,7 @@ const Principal = () =>{
                 <li className="button2">Ver Cartas</li>
                 <img className="supremo3" src="https://tcg.pokemon.com/assets/img/expansions/crown-zenith/global/frames/frame-gallery-header-bottom-right.png" alt="pokemon"/>
             </div>
-    
+            
             <div className="principal3">
                 <img className="tempestad1" src="https://tcg.pokemon.com/assets/img/expansions/silver-tempest/global/logos/es-es/swsh12-logo.png" alt="pokemon"/>
                 <h1 className="titulo3">LA EXPANSIÓN ESPADA Y ESCUDO-TEMPESTAD PLATEADA DE JCC POKÉMON</h1>

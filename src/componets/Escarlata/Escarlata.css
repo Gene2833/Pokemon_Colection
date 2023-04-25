@@ -1,0 +1,50 @@
+.escarlata-1{
+   background: linear-gradient(to right, red, #cf30ff );
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+li{
+    list-style: none;
+    position: relative;
+    top: 15px;
+    right: 640px;
+}
+h1{
+
+    color: 	#D4AF37 ;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.fondo{
+    background-color: rgb(255, 255, 255);
+}
+
+.galeria{
+    background-color:rgb(255, 255, 255) ;
+    display: flex;
+    width: 1200px;
+    height: 430px;
+   position: relative;
+   left: 90px;
+    
+}
+
+.galeria img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .9;
+    transition: .5s ease;
+    margin-bottom: 25px;
+}
+
+.galeria img:hover{
+    cursor: pointer;
+    width: 130px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
