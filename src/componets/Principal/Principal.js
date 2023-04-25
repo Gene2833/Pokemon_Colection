@@ -12,7 +12,8 @@ const Principal = () =>{
                 <h1 className="titulo5">TE DAMOS LA BIENVENIDA AL MUNDO DE POKÉMON</h1>
                 <img className="pokemon1" src="https://tcg.pokemon.com/assets/img/global/tcg-card-back.jpg" alt="pokemon"/>
                 <img className="pokemon2" src="https://tcg.pokemon.com/assets/img/parents-guide/about/es-es/SM11_55.jpg" alt="pokemon"/>
-                <li className="button5">Ver Cartas</li>
+                <li><Link to={`/Pokemon`} className="button5" >Ver Cartas</Link></li>
+                <li><Link to={`/Create`} className="button6" >Crea tu Pokemon</Link></li>
                
             </div>
 
@@ -27,21 +28,21 @@ const Principal = () =>{
                 <img className="supremo1" src="https://tcg.pokemon.com/assets/img/expansions/crown-zenith/global/frames/frame-gallery-header-top-left.png" alt="pokemon"/>
                 <img className="supremo2" src="https://tcg.pokemon.com/assets/img/expansions/crown-zenith/global/logos/es-es/swsh12pt5-logo.png" alt="pokemon"/>
                 <h1 className="titulo2">LA EXPANSIÓN CENIT SUPREMO DE JCC POKÉMON</h1>
-                <li className="button2">Ver Cartas</li>
+                <li><Link to={`/Supremo`} className="button2">Ver Cartas</Link></li>
                 <img className="supremo3" src="https://tcg.pokemon.com/assets/img/expansions/crown-zenith/global/frames/frame-gallery-header-bottom-right.png" alt="pokemon"/>
             </div>
             
             <div className="principal3">
                 <img className="tempestad1" src="https://tcg.pokemon.com/assets/img/expansions/silver-tempest/global/logos/es-es/swsh12-logo.png" alt="pokemon"/>
                 <h1 className="titulo3">LA EXPANSIÓN ESPADA Y ESCUDO-TEMPESTAD PLATEADA DE JCC POKÉMON</h1>
-                <li className="button3">Ver Cartas</li>
+                <li><Link to={`/Tempestad`} className="button3" >Ver Cartas</Link></li>
             </div>
 
             <div className="principal4">
                 <img className="perdido1" src="https://tcg.pokemon.com/assets/img/expansions/crown-zenith/global/background-elements/slash-1.png" alt="nombre"/>
                 <img className="perdido2" src="https://tcg.pokemon.com/assets/img/expansions/lost-origin/global/logos/es-es/swsh11-logo.png" alt="pokemon"/>
                 <h1 className="titulo4">LA EXPANSIÓN ESPADA Y ESCUDO-ORIGEN PERDIDO DE JCC POKÉMON</h1>
-                <li className="button4">Ver Cartas</li>
+                <li><Link to={`/Perdido`} className="button4" >Ver Cartas</Link></li>
                 <img className="perdido3" src="https://tcg.pokemon.com/assets/img/expansions/crown-zenith/global/background-elements/slash-2.png" alt="nombre"/>
                
             </div>

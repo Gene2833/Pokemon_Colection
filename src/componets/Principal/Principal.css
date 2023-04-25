@@ -57,21 +57,24 @@
 .supremo3{
   position: relative;
   left: 878px;
-  
 }
 
+.supremo2{
+  position: relative;
+  left: 40px;
+}
 
 .titulo2{
-  position: relative;
   text-align: center;
   color: 	#D4AF37;
   font-size: 30px;
 }
 
 .button2{
-  text-align: center;
-  color: aliceblue;
+  color: rgb(0, 136, 255);
   list-style: none;
+  position: relative;
+  left: 620px;
 }
 
 /*principal 3*/
@@ -101,6 +104,7 @@ top: 90px;
 
 .button3{
   position: relative;
+  left: 620px;
   top: 200px;
   text-align: center;
   list-style: none;
@@ -142,10 +146,10 @@ top: 90px;
 
 .button4{
   position: relative;
-  top: 20px;
+  left: 600px;
+  top: 40px;
   text-align: center;
   list-style: none;
-  color: aliceblue;
 }
 
 /*Principal 5*/
@@ -153,6 +157,7 @@ top: 90px;
 .principal5{
   height: 650px;
   background-image: url("https://images.unsplash.com/photo-1605710345595-9929bc7912ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zm9uZG8lMjBuZWdybyUyMGxpc298ZW58MHx8MHx8&w=1000&q=80");
+  height: 690px;
   background-size: cover;
   background-position: center;
 }
@@ -190,4 +195,11 @@ top: 90px;
   list-style: none;
   text-align: center;
   color: white;
+}
+
+.button6{
+  color: white;
+  list-style: none;
+  text-align: center;
+  padding: 25px;
 }

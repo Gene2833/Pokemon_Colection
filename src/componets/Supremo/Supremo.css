@@ -1,0 +1,44 @@
+.supremo{
+    background: linear-gradient(to right, rgb(32, 28, 255),rgb(255, 0, 149) );
+}
+
+.supremo img{
+  position: relative;
+  left: 450px;
+  bottom: 20px;
+}
+
+.button-link{
+    list-style: none;
+    padding: 15px;
+}
+
+.titulo-supremo{
+    padding: 10px;
+}
+
+.galeria-supremo{
+  display: flex;
+  width: 1200px;
+  height: 430px;
+ position: relative;
+ left: 90px;
+  
+}
+
+.galeria-supremo img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .9;
+  transition: .5s ease;
+  margin-bottom: 35px;
+}
+
+.galeria-supremo img:hover{
+  cursor: pointer;
+  width: 130px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
