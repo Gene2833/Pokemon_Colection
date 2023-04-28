@@ -1,0 +1,39 @@
+.pokemon img{
+    width: 1350px;
+    height: 500px;
+}
+
+.titulo-pokemon{
+    padding: 10px;
+}
+
+.pokemon-galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pokemon-galeria img{
+    width: 300px;
+    padding: 15px;
+}
+
+.parrafo-pokemon{
+    color: white;
+    text-align: center;
+}
+
+.button-pokemon{
+    position: relative;
+    left: 580px;
+    margin: 20px;
+}
+
+.link-pokemon{
+    position: relative;
+    left: 0px;
+    bottom: 490px;
+    list-style: none;
+    margin: 15px;
+}

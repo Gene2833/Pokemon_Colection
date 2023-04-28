@@ -18,10 +18,11 @@ const Supremo = () =>{
            <img src="https://tcg.pokemon.com/assets/img/expansions/crown-zenith/cards/es-es/SWSH12pt5_ES_66.jpg" alt="nom"/>
            <img src="https://tcg.pokemon.com/assets/img/expansions/crown-zenith/cards/es-es/SWSH12pt5_ES_GG_50.jpg" alt="olc"/>
             </section>
+
+             <h1 className="titulo-supremo">CENIT SUPREMO DE JCC POKÉMON</h1>
+            <p className="parrafo-supremo">¡Disfruta de todo el esplendor de JCC Pokémon con la Galería de Galar de Cenit Supremo! Sé testigo de la intimidante mirada de Zoroark de Hisui V-ASTRO bajo la luna llena, observa a Darkrai V-ASTRO volar sobre un lago mientras desata el poder de las pesadillas y date un paseo con la ambiciosa Cintia mientras investiga los mitos y leyendas de Sinnoh en estas cartas con ilustraciones alternativas especiales.</p>
             
-            <div>
-            <h2>CENIT SUPREMO DE JCC POKÉMON</h2>
-            <p>¡Disfruta de todo el esplendor de JCC Pokémon con la Galería de Galar de Cenit Supremo! Sé testigo de la intimidante mirada de Zoroark de Hisui V-ASTRO bajo la luna llena, observa a Darkrai V-ASTRO volar sobre un lago mientras desata el poder de las pesadillas y date un paseo con la ambiciosa Cintia mientras investiga los mitos y leyendas de Sinnoh en estas cartas con ilustraciones alternativas especiales.</p>
+            <div className="galeria-supremo1">
             <img src="https://tcg.pokemon.com/assets/img/expansions/crown-zenith/cards/es-es/SWSH12pt5_ES_GG_56.jpg"   alt="csa"/>
             <img src="https://tcg.pokemon.com/assets/img/expansions/crown-zenith/cards/es-es/SWSH12pt5_ES_GG_50.jpg"   alt="csa"/>
             <img src="https://tcg.pokemon.com/assets/img/expansions/crown-zenith/cards/es-es/SWSH12pt5_ES_GG_60.jpg"   alt="csa"/>

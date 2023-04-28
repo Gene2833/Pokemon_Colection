@@ -1,0 +1,28 @@
+.perdido{
+    background-image: url("https://img.freepik.com/vector-premium/fondo-blanco-fondo-tecnologia-digital-textura_675739-63.jpg");
+    height: 190px;
+}
+
+
+.perdido img{
+    position: relative;
+    left: 450px;
+    bottom: 35px;
+}
+
+.parrafo-perdido{
+    color: white;
+    font-size: 20px;
+    padding: 15px; 
+    text-align: center;
+    position: relative;
+    left: 0px;
+}
+
+.galeria-perdido1 img{
+    width: 300px;
+    padding: 15px;
+    position: relative;
+    left: 200px;
+    margin-bottom: 15px;
+}

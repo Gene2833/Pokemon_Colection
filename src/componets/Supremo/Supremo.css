@@ -42,3 +42,17 @@
   filter: contrast(120%);
 }
 
+.parrafo-supremo{
+  color:white;
+  font-size: 20px;
+  position: relative;
+left: 0px;
+  text-align: center;
+}
+
+.galeria-supremo1 img{
+  padding: 15px;
+  position: relative;
+  left: 120px;
+  margin-bottom: 15px;
+}

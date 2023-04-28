@@ -48,3 +48,23 @@ h1{
 }
 
 
+.parrafo-escarlata{
+    font-size: 20px;
+    margin: 15px;
+    text-align: center;
+    position: relative;
+    left: 10px;
+}
+
+.galeria-escarlata img{
+    position: relative;
+    left: 250px;
+    margin-top: 30px;
+    margin-bottom: 55px;
+    width: 250px;
+
+}
+
+.galeria-escarlata .mas{
+    width: 50px;
+}
