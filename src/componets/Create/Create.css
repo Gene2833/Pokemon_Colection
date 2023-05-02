@@ -1,0 +1,46 @@
+form {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/006/930/071/non_2x/abstract-texture-background-smooth-gold-metal-wall-free-photo.jpg");;
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #D4AF37;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+  	input[type="submit"] {
+            background-color:#000000;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			padding: 10px 20px;
+			font-size: 16px;
+			cursor: pointer;
+      width: 460px;
+      
+		}
+
+  input[type="submit"]:hover {
+    background-color:#c59700;
+  }
+  
+.archivo{
+    display: flex;
+    flex-direction: column;
+}
+
+.archivo input{
+    padding: 10px;
+}
