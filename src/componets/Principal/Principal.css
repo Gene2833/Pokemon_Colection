@@ -41,7 +41,7 @@
 
 
 .button1{
-  width: 120px;
+  width: 100px;
   height: 40px;
   background-color: #ffd700;
   color: #fff;
@@ -51,18 +51,19 @@
   font-size: 12px;
   text-transform: uppercase;
   position: relative;
-  overflow: hidden;
-  transition: background-color 0.3s ease-in-out;
-  position: relative;
   top: 400px;
-  right: 160px;
+  right: 170px;
+  background-image: -webkit-linear-gradient(top,#ffd700 , #b22c0f);
+  background-image: -moz-linear-gradient(top,#ffd700, #b22c0f);
+  background-image: -o-linear-gradient(top, #ffd700, #b22c0f);
+  background-image: linear-gradient(to bottom,#ffd700, #b22c0f);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 10px;
+  font-family: Arial;
+  font-size: 12px;
+  padding: 10px;
 }
-
-.button1:hover {
-  background-color: #b22c0f;
-}
-
-
 
 
 /*principal 2*/
@@ -90,8 +91,8 @@
 }
 
 .button2{
-  width: 120px;
-  height: 50px;
+  width: 130px;
+  height: 40px;
   background-color: #ffd700;
   color: #fff;
   border: none;
@@ -100,15 +101,21 @@
   font-size: 12px;
   text-transform: uppercase;
   position: relative;
-  overflow: hidden;
-  transition: background-color 0.3s ease-in-out;
-  position: relative;
-  left: 610px;
+  left: 600px;
+  background-image: -webkit-linear-gradient(top,#ffd700 , #b22c0f);
+  background-image: -moz-linear-gradient(top,#ffd700, #b22c0f);
+  background-image: -o-linear-gradient(top, #ffd700, #b22c0f);
+  background-image: linear-gradient(to bottom,#ffd700, #b22c0f);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 10px;
+  font-family: Arial;
+  font-size: 12px;
+  padding: 10px;
+  text-decoration: none;
+
 }
 
-.button2:hover{
-  background-color: #b22c0f;
-}
 
 /*principal 3*/
 
@@ -136,8 +143,8 @@ top: 90px;
 
 
 .button3{
-  width: 120px;
-  height: 50px;
+  width: 130px;
+  height: 40px;
   background-color: #ffd700;
   color: #fff;
   border: none;
@@ -146,15 +153,18 @@ top: 90px;
   font-size: 12px;
   text-transform: uppercase;
   position: relative;
-  overflow: hidden;
-  transition: background-color 0.3s ease-in-out;
-  position: relative;
-  top: 170px;
-  left: 610px;
-}
-
-.button3:hover{
-  background-color: #b22c0f;
+  left: 600px;
+  top: 150px;
+  background-image: -webkit-linear-gradient(top,#ffd700 , #b22c0f);
+  background-image: -moz-linear-gradient(top,#ffd700, #b22c0f);
+  background-image: -o-linear-gradient(top, #ffd700, #b22c0f);
+  background-image: linear-gradient(to bottom,#ffd700, #b22c0f);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 10px;
+  font-family: Arial;
+  font-size: 12px;
+  padding: 10px;
 }
 
 /*Principal 4*/
@@ -192,8 +202,8 @@ top: 90px;
 }
 
 .button4{
-  width: 120px;
-  height: 50px;
+  width: 130px;
+  height: 40px;
   background-color: #ffd700;
   color: #fff;
   border: none;
@@ -202,16 +212,20 @@ top: 90px;
   font-size: 12px;
   text-transform: uppercase;
   position: relative;
-  overflow: hidden;
-  transition: background-color 0.3s ease-in-out;
-  position: relative;
-  left: 620px;
-  top: 50px;
+  left: 600px;
+  top: 15px;
+  background-image: -webkit-linear-gradient(top,#ffd700 , #b22c0f);
+  background-image: -moz-linear-gradient(top,#ffd700, #b22c0f);
+  background-image: -o-linear-gradient(top, #ffd700, #b22c0f);
+  background-image: linear-gradient(to bottom,#ffd700, #b22c0f);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 10px;
+  font-family: Arial;
+  font-size: 12px;
+  padding: 10px;
+  text-decoration: none;
 
-}
-
-.button4:hover {
-  background-color: #b22c0f;
 }
 
 
@@ -253,45 +267,54 @@ top: 90px;
 }
 
 .button5{
-  width: 100px;
-  height: 35px;
+  width: 110px;
+  height: 36px;
   background-color: #ffd700;
   color: #fff;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
-  font-size: 11px;
+  font-size: 12px;
   text-transform: uppercase;
-  position: relative;
-  overflow: hidden;
-  transition: background-color 0.3s ease-in-out;
   position: relative;
   top: 320px;
-  right: 170px;
+  right: 160px;
+  background-image: -webkit-linear-gradient(top,#ffd700 , #b22c0f);
+  background-image: -moz-linear-gradient(top,#ffd700, #b22c0f);
+  background-image: -o-linear-gradient(top, #ffd700, #b22c0f);
+  background-image: linear-gradient(to bottom,#ffd700, #b22c0f);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 10px;
+  font-family: Arial;
+  font-size: 12px;
+  padding: 10px;
 }
 
-.button5:hover{
-  background-color: #b22c0f;
-}
+
 
 .button6{
-  width: 120px;
-  height: 50px;
+  width: 130px;
+  height: 40px;
   background-color: #ffd700;
   color: #fff;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
-  font-size: 11px;
+  font-size: 12px;
   text-transform: uppercase;
   position: relative;
-  overflow: hidden;
-  transition: background-color 0.3s ease-in-out;
-  position: relative;
-  left: 470px;
   top: 40px;
+  left: 500px;
+  background-image: -webkit-linear-gradient(top,#ffd700 , #b22c0f);
+  background-image: -moz-linear-gradient(top,#ffd700, #b22c0f);
+  background-image: -o-linear-gradient(top, #ffd700, #b22c0f);
+  background-image: linear-gradient(to bottom,#ffd700, #b22c0f);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 10px;
+  font-family: Arial;
+  font-size: 12px;
+  padding: 10px;
 }
 
-.button6:hover{
-  background-color: #b22c0f;
-}

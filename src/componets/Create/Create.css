@@ -1,3 +1,8 @@
+div{
+    background-color: white;
+}
+
+
 form {
     background-image: url("https://static.vecteezy.com/system/resources/previews/006/930/071/non_2x/abstract-texture-background-smooth-gold-metal-wall-free-photo.jpg");;
     padding: 20px;
@@ -43,4 +48,26 @@ form {
 
 .archivo input{
     padding: 10px;
+}
+
+
+.contenedor{
+    padding: 70px; 
+ 
+}
+
+.tarjeta{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+}
+
+.tarjeta h2{
+    font-size: 15px;
+
+}
+
+.tarjeta img{
+    width: 150px;
+    height: 150px;
 }
