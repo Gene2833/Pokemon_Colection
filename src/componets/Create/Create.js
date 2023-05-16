@@ -33,6 +33,7 @@ const Create = () =>{
     setDescripcion('');
     setPoderes('');
     setImagen(null);
+    e.target.reset(); // Reinicia el formulario
   };
 
   return(
