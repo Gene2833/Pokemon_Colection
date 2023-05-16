@@ -1,6 +1,4 @@
-div{
-    background-color: white;
-}
+
 
 
 form {
@@ -50,24 +48,92 @@ form {
     padding: 10px;
 }
 
-
-.contenedor{
-    padding: 70px; 
- 
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  color: #333;
+  transition: all 0.3s ease;
+  position: relative;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-.tarjeta{
-    background-color: aqua;
-    width: 300px;
-    height: 300px;
+.card-header {
+  background-color: #fcbb6c;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
 }
 
-.tarjeta h2{
-    font-size: 15px;
-
+.card-header h2 {
+  font-size: 24px;
+  margin: 0;
+  color: #fff;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
-.tarjeta img{
-    width: 150px;
-    height: 150px;
+.card-body {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: #f5f5f5;
+}
+
+.card-body img {
+  max-width: 200px;
+  height: auto;
+}
+
+.card-footer {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+}
+
+.card-footer .description {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-footer .powers {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover .card-header {
+  background-color: #f78f3f;
+}
+
+.card:hover .card-header h2 {
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover .card-body {
+  background-color: #fcbb6c;
+}
+
+.card:hover .card-footer {
+  background-color: #f78f3f;
 }

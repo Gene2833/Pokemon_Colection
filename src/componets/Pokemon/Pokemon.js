@@ -18,7 +18,7 @@ const Pokemon = () =>{
                  <img src="https://tcg.pokemon.com/assets/img/expansions/tcg-go/cards/es-es/POGO_ES_48-2x.jpg" alt="melmetal"/>
             </div>
 
-            <button className="button-pokemon">Ver la galeria de Cartas</button>
+            
 
             <h1>POKÉMON GO DE JCC POKÉMON</h1>
             <p className="parrafo-pokemon">La nueva expansión de JCC Pokémon se inspira en Pokémon GO y presenta ilustraciones que muestran a los Pokémon en el mundo real.</p>

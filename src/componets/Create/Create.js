@@ -61,11 +61,17 @@ const Create = () =>{
 </form>
 
     {tarjetas.map((tarjeta, index) => (
-        <div className="contenedor" key={index}>
+        <div className="card" key={index}>
+          <div className="card-header">
             <h2>{tarjeta.nombre}</h2>
-            <p>{tarjeta.descripcion}</p>
-            <h6>{tarjeta.poderes}</h6>
-            <img src={URL.createObjectURL(tarjeta.imagen)} alt="" />
+            </div>
+            <div className="card-body">
+             <img src={URL.createObjectURL(tarjeta.imagen)} alt="" /> 
+            </div>
+          <div className="card-content">
+              <p className="description">{tarjeta.descripcion}</p>  
+            <h6 className="powers">{tarjeta.poderes}</h6>
+            </div>
         </div>
       ))}
 
