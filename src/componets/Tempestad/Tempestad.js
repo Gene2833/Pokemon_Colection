@@ -1,12 +1,17 @@
 import "./Tempestad.css"
 import { Link } from "react-router-dom"
-
+import { useEffect } from "react"
 
 const Tempestad = () =>{
+
+    useEffect(() =>{
+        document.title ="Pokemon- Tempestad"
+    },[])
+
     return(
         <div>
             <div className="tempestad">
-            <li className="tempestad-button"><Link to={"/"} style={{textDecoration:"none", color:"black"}}>🡨</Link></li>
+            <li className="tempestad-button"><Link to={"/"} style={{textDecoration:"none", backgroundColor:"black"}}>🡨</Link></li>
                 <img src="https://tcg.pokemon.com/assets/img/expansions/silver-tempest/global/logos/es-es/swsh12-logo.png" alt="nombre"/>
             </div>
 

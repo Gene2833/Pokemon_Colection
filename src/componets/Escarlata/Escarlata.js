@@ -1,11 +1,20 @@
 import "./Escarlata.css"
 import { Link } from "react-router-dom"
+import { useEffect } from "react"
 
 const Escarlata = () =>{
+
+    useEffect(() =>{
+        document.title ="Pokemon- Escarlta Y Purpura"
+    },[])
+
+    
     return(
+
+        
         <div className="fondo">
             <div className="escarlata-1">
-            <li className="link"><Link to={"/"} style={{textDecoration:"none", color:"black"}}>🡨</Link></li>
+            <li className="link"><Link to={"/"} style={{textDecoration:"none", backgroundColor:"black"}}>🡨</Link></li>
            <img className="escarlata2" src="https://tcg.pokemon.com/assets/img/sv-expansions/scarlet-violet/logo/es-es/sv01-header-logo.png" alt="escarlata"/>
            </div>
 

@@ -1,10 +1,13 @@
 import "./Principal.css"
 import Menu from "../Menu/Menu"
 import { Link } from "react-router-dom"
-
+import { useEffect } from "react"
 
 const Principal = () =>{
     
+  useEffect(() =>{
+    document.title ="Pokemon- Principal"
+},[])
     return(
         <div>
             <Menu/>   

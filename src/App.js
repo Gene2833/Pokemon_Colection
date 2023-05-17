@@ -13,6 +13,7 @@ import Tempestad from "./componets/Tempestad/Tempestad";
 import Perdido from "./componets/Perdido/Perdido";
 import Pokemon from "./componets/Pokemon/Pokemon";
 import Create from "./componets/Create/Create";
+
 // de la auth vamos a obtener la aplicacion de firebaseapp, va a estar es escuchando nuestra aplicacion todo esto son regalas de firebase
 const auth = getAuth(appFirabase)
 
@@ -35,6 +36,7 @@ function App() {
   })
 
   return (
+
      <BrowserRouter>
      <Routes>   
       <Route path='/' element={usuario ? <Principal correoUsuario = {usuario.email} /> : <Login/>}/>    

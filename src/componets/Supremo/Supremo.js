@@ -1,12 +1,18 @@
-import "./Supremo.css"
 import { Link } from "react-router-dom"
+import "./Supremo.css"
+import { useEffect } from "react"
 
 const Supremo = () =>{
+
+    useEffect(() =>{
+        document.title ="Pokemon- Supremo"
+    },[])
+
 
     return(
         <div>
             <div className="supremo">
-            <li className="button-link"><Link to={"/"} style={{textDecoration:"none", color:"black"}}>🡨</Link></li>
+            <li className="tempestad-button"><Link to={"/"} style={{textDecoration:"none", backgroundColor:"black"}}>🡨</Link></li>
                 <img src="https://tcg.pokemon.com/assets/img/expansions/crown-zenith/global/logos/es-es/swsh12pt5-logo.png" alt="nombre"/>
             </div>
                 <h1 className="titulo-supremo">Cartas Destacadas</h1>

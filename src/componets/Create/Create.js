@@ -1,6 +1,6 @@
 import "./Create.css"
-import { useState } from "react";
-
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Create = () =>{
     const [tarjetas, setTarjetas] = useState([]);
@@ -9,6 +9,10 @@ const Create = () =>{
     const [poderes, setPoderes] = useState('');
     const [imagen, setImagen] = useState(null);
     
+    useEffect(() =>{
+      document.title ="Pokemon- Crea tu pokemon"
+  },[])
+
  const handleImagenChange = (event) => {
             setImagen(event.target.files[0]);
           };
@@ -37,12 +41,13 @@ const Create = () =>{
   };
 
   return(
-    <div>
+    <div> 
+      <li className="tempestad-button"><Link to={"/"} style={{textDecoration:"none", backgroundColor:"black"}}>🡨</Link></li>
        <h1>Create tu pokemon</h1>
-
+      
 
     
-    <form onSubmit={guardarTarjetas}>
+    <form className="form" onSubmit={guardarTarjetas}>
     <label for="nombre">Nombre:</label>
     <input type="text" id="nombre" name="nombre" placeholder="Nombre" onChange={(e) => setNombre(e.target.value)} required/>
 

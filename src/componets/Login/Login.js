@@ -1,6 +1,6 @@
 import "./login.css"
 
-import React, { useState} from "react"
+import React, { useState, useEffect} from "react"
  // Se importa Firebase para poder usarlo y desesctruturar los servicios que vamos a utilizar del auth = autentificacion
 import appFirabase from "../Firebase/Firebase"
 //funciones que vamos a utilizar todo esto viene de la documentacion de firebase
@@ -33,11 +33,14 @@ const Login = () => {
   }
 
 
+  useEffect(() =>{
+    document.title ="Pokemon"
+},[])
 
 return (
 
       <div className="body">
-      
+        <h1 className="titulo-login">Crea tu pokemon y ve nuestro contenido para tienes que registrarte</h1>
           <div className='container  mt-5  rounded'>
               
           <div className="row align-items-stretch">

@@ -1,5 +1,4 @@
 .escarlata-1{
-   background: linear-gradient(to right, red, #cf30ff );
    text-align: center;
    margin-bottom: 20px;
 }
@@ -11,15 +10,11 @@
     right: 640px;
 }
 h1{
-
     color: 	#D4AF37 ;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.fondo{
-    background-color: rgb(255, 255, 255);
-}
 
 .galeria{
     background-color:rgb(255, 255, 255) ;
@@ -54,6 +49,7 @@ h1{
     text-align: center;
     position: relative;
     left: 10px;
+    color: white    0;
 }
 
 .galeria-escarlata img{

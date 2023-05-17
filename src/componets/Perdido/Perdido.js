@@ -1,12 +1,17 @@
 import { Link } from "react-router-dom"
 import "./Perdido.css"
+import { useEffect } from "react"
 const Perdido = () =>{
+
+    useEffect(() =>{
+        document.title ="Pokemon- Perdido"
+    },[])
 
     return(
         <div>
 
             <div className="perdido">
-            <li className="button-link"><Link to={"/"} style={{textDecoration:"none", color:"black"}}>🡨</Link></li>
+            <li className="tempestad-button"><Link to={"/"} style={{textDecoration:"none", backgroundColor:"black"}}>🡨</Link></li>
                 <img src="https://tcg.pokemon.com/assets/img/expansions/lost-origin/global/logos/es-es/swsh11-logo.png" alt="perido"/>
                 
             </div>

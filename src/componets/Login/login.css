@@ -32,3 +32,8 @@ body{
     flex-direction: column;
     justify-content: center;
 }
+
+
+.titulo-login{
+    padding: 25px;
+}
